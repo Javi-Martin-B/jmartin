@@ -1,0 +1,95 @@
+a, h1 {
+    color: orange;
+    }
+.example_extract, .forms {
+        display:inline-block;
+        margin: 1.39%;
+        padding: 2%;
+        opacity: 1;
+        border-radius: 2%;
+        box-shadow: 3px 3px 10px rgb(109, 58, 58);
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#010101+0,010101+0,ffff00+0,ffff00+1,383838+8,383838+8,000000+8,4e4e4e+22,959595+34,959595+38,959595+40,ffffff+50,ffffff+52,959595+63,959595+64,959595+64,959595+65,959595+65,959595+66,959595+67,959595+71,4e4e4e+83,010101+91,010101+91,ffff00+99,ffff00+100,ffff00+100,ffff00+100 */
+        background: linear-gradient(to bottom,  #010101 0%,#010101 0%,#ffff00 0%,#ffff00 1%,#383838 8%,#383838 8%,#000000 8%,#4e4e4e 22%,#959595 34%,#959595 38%,#959595 40%,#ffffff 50%,#ffffff 52%,#959595 63%,#959595 64%,#959595 64%,#959595 65%,#959595 65%,#959595 66%,#959595 67%,#959595 71%,#4e4e4e 83%,#010101 91%,#010101 91%,#ffff00 99%,#ffff00 100%,#ffff00 100%,#ffff00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        width: 26%;
+        align-content: center;
+    }
+
+    #example_list {
+    border: 1px solid #3e2f2d;
+    margin: 20px;
+    padding: 20px;
+    }
+    #menu-principal {
+    color: rgb(0, 0, 0);
+    background-color: #ccc;
+    display:inline-block;
+    width: 100%;
+    height: 20%;
+    opacity: 1;
+    box-shadow: 3px 3px 10px rgb(109, 58, 58);
+    background: linear-gradient(to bottom,  #010101 0%,#010101 0%,#ffff00 0%,#ffff00 1%,#383838 8%,#383838 8%,#000000 8%,#4e4e4e 22%,#959595 34%,#959595 38%,#959595 40%,#ffffff 50%,#ffffff 52%,#959595 63%,#959595 64%,#959595 64%,#959595 65%,#959595 65%,#959595 66%,#959595 67%,#959595 71%,#4e4e4e 83%,#010101 91%,#010101 91%,#ffff00 99%,#ffff00 100%,#ffff00 100%,#ffff00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+    nav{
+    margin: 20px;
+    padding: 20px;
+    }
+    footer
+    {
+    margin: 20px;
+    padding: 20px;
+    }
+    
+    .btn {
+        background: #000000;
+        background-image: -webkit-linear-gradient(top, #000000, #749cb5);
+        background-image: -moz-linear-gradient(top, #000000, #749cb5);
+        background-image: -ms-linear-gradient(top, #000000, #749cb5);
+        background-image: -o-linear-gradient(top, #000000, #749cb5);
+        background-image: linear-gradient(to bottom, #000000, #749cb5);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        text-shadow: 3px 2px 1px #e1ff00;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        border: solid #eeff05 2px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #b31010;
+        background-image: -webkit-linear-gradient(top, #b31010, #f09c0c);
+        background-image: -moz-linear-gradient(top, #b31010, #f09c0c);
+        background-image: -ms-linear-gradient(top, #b31010, #f09c0c);
+        background-image: -o-linear-gradient(top, #b31010, #f09c0c);
+        background-image: linear-gradient(to bottom, #b31010, #f09c0c);
+        text-decoration: none;
+      }
+
+      .image {
+        width: 190px;
+      }
+      .forms {
+        display: inline-block;
+        width: 90%;
+        height: 20%;
+             
+      }
+      .form1 {
+        color: #f09c0c;
+        width: 20%;
+        margin-bottom: 8%;
+        text-shadow: 2% #009dff;
+        }
+      .form2 {
+        color: #f09c0c;
+        width: 20%;
+        margin-left: 75%;
+        margin-top: -25%;
+        margin-bottom: 8%;
+      }
+      body {
+        background-color: #959595;
+      }
