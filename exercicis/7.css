@@ -68,8 +68,9 @@ a, h1 {
         text-decoration: none;
       }
 
-      .image {
-        width: 190px;
+      img {
+        width: 100%;
+        height: auto;
       }
       .forms {
         display: inline-block;
@@ -92,4 +93,31 @@ a, h1 {
       }
       body {
         background-color: #959595;
+      }
+      textarea {
+        width: 100%;
+        height: auto;
+      }
+      #copy {
+        font-size: 1.5vw;
+        width: 80%;
+        padding: 2.5%;
+        float: left;
+      
+      }
+      
+      #icons {
+        width: 15%;
+        display: inline-block;
+      
+      }
+      
+      .ico {
+        display: inline-block;
+      width: 20%;
+        }
+      
+      .contacto{
+        display: inline-block;
+      
       }
