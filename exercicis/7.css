@@ -121,3 +121,6 @@ a, h1 {
         display: inline-block;
       
       }
+      element.style {
+        margin-top: 2%;
+      }

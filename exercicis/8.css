@@ -1,0 +1,134 @@
+.imgheader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+button {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #749cb5);
+    background-image: -moz-linear-gradient(top, #000000, #749cb5);
+    background-image: -ms-linear-gradient(top, #000000, #749cb5);
+    background-image: -o-linear-gradient(top, #000000, #749cb5);
+    background-image: linear-gradient(to bottom, #000000, #749cb5);
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #575757;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #726363 2px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+button:hover {
+    background: #b31010;
+    background-image: -webkit-linear-gradient(top, #b31010, #f09c0c);
+    background-image: -moz-linear-gradient(top, #b31010, #f09c0c);
+    background-image: -ms-linear-gradient(top, #b31010, #f09c0c);
+    background-image: -o-linear-gradient(top, #b31010, #f09c0c);
+    background-image: linear-gradient(to bottom, #b31010, #f09c0c);
+    text-decoration: none;
+}
+.audio {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 28%;
+}
+.imgaudio {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.imgaudio img{
+    max-width: 50%;
+}
+.imagrupo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+body{
+    background-color: #575757;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #747474;
+  }
+.v1 {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 7px;
+   width: 100%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+audio {
+    width: 50%;
+    height: 54px;
+}
+element.style {
+    z-index: 3;
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    touch-action: pan-x pan-y;
+    margin-top: 2%;
+}
+#copy {
+    font-size: 1.5vw;
+    width: 80%;
+    padding: 2.5%;
+    float: left;
+  
+  }
+  
+  #icons {
+    width: 15%;
+    display: inline-block;
+  
+  }
+  
+  .ico {
+    display: inline-block;
+  width: 20%;
+    }
+  
+  .contacto{
+    display: inline-block;
+  
+  }
