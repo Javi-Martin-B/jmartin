@@ -84,15 +84,14 @@ table {
   tr:nth-child(even) {
     background-color: #747474;
   }
-.v1 {
-   display: grid;
-   grid-template-columns: auto auto auto;
-   gap: 7px;
-   width: 100%;
-   margin-top: 2%;
-   margin-bottom: 2%;
-   justify-content: space-between;
-}
+  .v1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Utiliza auto-fit y minmax para especificar un ancho mínimo y máximo para las columnas */
+    gap: 7px;
+    width: 90%; /* En lugar de 100%, para dejar espacio para los márgenes */
+    margin: 2% auto; /* Margen superior e inferior del 2% y centrado horizontal */
+    justify-content: space-between;
+ }
 audio {
     width: 50%;
     height: 54px;
