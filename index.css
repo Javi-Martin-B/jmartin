@@ -1,0 +1,218 @@
+.est {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h1, h2 {
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.est,.curr,.proj,.exs {
+  border-top: 2px solid red;
+  width: 100%;
+  height:max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: rgb(255, 0, 0);
+}
+.ies {
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+  margin-left: 1%;
+}
+.fedac {
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+
+}
+#imghead {
+  width: 100;
+}
+
+
+
+
+.download-button {
+  background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Elimina el borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espaciado interno (arriba y abajo, izquierda y derecha) */
+  text-align: center; /* Alineación del texto al centro */
+  text-decoration: none; /* Elimina la decoración de texto predeterminada */
+  display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 20px; /* Margen exterior */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  border-radius: 8px; /* Borde redondeado */
+}
+
+.download-button:hover {
+  background-color: #45a049; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.download-button:active {
+  background-color: #3e8e41; /* Cambia el color de fondo cuando se hace clic */
+}
+#copy {
+    font-size: 1.5vw;
+    width: 80%;
+    padding: 2.5%;
+    float: left;
+  color: #ff0000;
+  }
+  footer {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+  #icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+.contact_form{
+  display: grid;
+  grid-template-columns: auto;
+	width: 25%; 
+  height: auto;
+  margin: 5% auto;
+	border-radius: 2.5%;  
+	padding-top: 5%;
+	padding-bottom: 5%;  
+  background-color: #fbfbfb; 
+  padding-left: 5%; 
+  padding-right: 13%; 
+
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 10px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #ff0000; 
+}
+
+
+span{
+	color: #b61d1d; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #ff0000;
+}
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: #ff0000; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #d8aa48;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #d8aa48;
+}
+  .ico {
+    width: 40%;
+    margin-left: 75%;
+    }
+  
+  .contacto{
+    display: inline-block;
+  }
+
+  .imags{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  img{
+    width: 100%;
+  }
