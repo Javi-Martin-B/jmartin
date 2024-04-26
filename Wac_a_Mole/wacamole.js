@@ -4,26 +4,26 @@ let score=0;
 function pam(index) {
    
     if (aleatori2-1===index) {
-        score+=10;
+        score+=33;
         document.getElementById('score').innerHTML=score;
         var audio = document.getElementById("boing");
         audio.play();
-        document.getElementById(imagenes[index]).src ="Pictures/topoNo.jpg";
+        document.getElementById(imagenes[index]).src ="Pictures/topoNo.png";
     }else{
-        score-=10;
+        score-=33;
         document.getElementById('score').innerHTML=score;
     }
-    document.getElementById(imagenes[index]).src = 'Pictures/topoPam.jpg';
+    document.getElementById(imagenes[index]).src = 'Pictures/topoPam.png';
 }
 
 function camviaTopo() {
 
     for (let i=0;i<imagenes.length;i++){
-        document.getElementById(imagenes[i]).src = 'Pictures/topoNo.jpg';
+        document.getElementById(imagenes[i]).src = 'Pictures/topoNo.png';
     }
     aleatori2 = Math.trunc((Math.random() * (9)) + 1);
     
-    document.getElementById(imagenes[aleatori2-1]).src = "Pictures/topoSi.jpg";
+    document.getElementById(imagenes[aleatori2-1]).src = "Pictures/topoSi.png";
     
 }
 setInterval(camviaTopo, 1000);
