@@ -34,9 +34,22 @@ body {
 #imghead {
   width: 100;
 }
+.foot {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -3.4%;
+}
 
-
-
+.exs {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 100%;
+}
 
 .download-button {
   background-color: #4CAF50; /* Color de fondo */
@@ -212,9 +225,9 @@ p{
   }
 
   .imags{
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  img{
-    width: 100%;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 16%;
+}
