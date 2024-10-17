@@ -92,7 +92,10 @@ img {
     align-items: start;
   }
   @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-
+iframe {
+  width: 100%;
+  border-radius: 5px;
+}
 
 .contact_form{
   display: grid;
@@ -103,7 +106,7 @@ img {
 	border-radius: 2.5%;  
 	padding-top: 5%;
 	padding-bottom: 5%;  
-  background-color: #fbfbfb; 
+  background-color: #4e4e4e; 
   padding-left: 5%; 
   padding-right: 15%;
 
@@ -189,8 +192,8 @@ h3{
 
 
 p{
-	font-size: 14px; 
-	color: #ff0000; 
+	font-size: 50px; 
+	color: #000000; 
   margin-right: 25%;
 }
 

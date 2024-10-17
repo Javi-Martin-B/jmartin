@@ -1,0 +1,33 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+}
+.im2 {
+    padding: 9%;
+}
+@media (max-width: 600px) {
+    .contenedor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .contenedor1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .im {
+        padding: 9%;
+    }
+    .im2 {
+        padding: 9%;
+    }
+}
